@@ -161,7 +161,7 @@ li, p {
 
 .call-container {
     display: flex;
-    background-image: url(./images/School-of-Athens.jpeg);
+    background-image: url(./Images/School-of-Athens.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 800px;
@@ -205,6 +205,8 @@ li, p {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     cursor: pointer;
+    font-weight: bold;
+    background-color: #fdf3c5;
 }
 
 .signup-button2:hover {
@@ -212,6 +214,8 @@ li, p {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     cursor: pointer;
+    font-weight: bold;
+    background-color: #fdf3c5;
 }
 
 .footer {
