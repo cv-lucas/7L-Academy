@@ -1,0 +1,223 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.upper-header {
+    display: flex;
+    background-color:#F5E8C7;
+    padding: 0px 100px;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.vertical-line {
+    height: 100px;
+    width: 1px;
+    border-left: 2.5px solid gray;
+    margin-left: 35px;
+}
+
+.links,
+a {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+    flex-direction: row;
+    font-size: 20px;
+    margin: 15px;    
+    text-decoration: none;
+    color: darkslategray;
+    font-weight: bolder;
+}
+
+
+.lower-header {
+    display: flex;
+    background-color:#F5E8C7;
+    padding: 20px 200px;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+    
+}
+
+.about-site {
+    display: flex;
+    padding-right: 10px;
+    margin: 0px;
+    flex-direction: column ;
+    justify-content: center;
+}
+
+.header-images img {
+    border-radius: 20px;
+    margin-left: 100px;
+}
+
+.main {
+    display: flex;
+    background-color: #FEFCF3;
+    padding: 100px 300px;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-title {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 50;
+}
+
+ol {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+ol
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-color: #faf9d3;
+    padding: 40px;
+    font-size: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: 0.3s ease-in-out;
+}
+
+ol
+li:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+}
+
+li
+img {
+    border-radius: 10px;
+    border-spacing: 30px;
+    width: 117px;
+    height: 222.99px;
+}
+
+li, p {
+    display: flex;
+}
+
+.description {
+    display: flex;
+    margin-top: 0;
+    width: 100px;
+    text-align: center;
+}
+
+
+.quote-section {
+    background-color: rgb(247, 243, 243);
+    display: flex;
+    flex-direction: column;
+    padding: 50px 200px;
+    flex-shrink: 0;
+    align-items: stretch;
+}
+
+.quote {
+    font-size: 30px;
+    font-style: italic;
+    padding-left: 200px;
+    padding-right: 130px;
+    font-weight: lighter;
+}
+
+.author {
+    display: flex;
+    font-size: 28px;
+    text-align: right;
+    padding-right: 200px;
+    justify-content: flex-end;
+    margin-top: 50px;
+}
+
+.call {
+    display: flex;
+    padding: 100px 0px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FEFCF3;
+}
+
+.call-container {
+    display: flex;
+    background-image: url(./images/School-of-Athens.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 800px;
+    height: 300px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.calling {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    justify-content: space-between;
+    align-self: first baseline;
+    color: black;
+}
+
+.call-for-signup {
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.signup-button1,
+.signup-button2 {
+    height: 60px;
+    width: 160px;
+    border-radius: 20px;
+    border-style: solid;
+    font-size: 17px;
+    background-color: #FEFCF3;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    align-self: first baseline;
+    transition-duration: 0.5s;
+}
+
+.signup-button1:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    cursor: pointer;
+}
+
+.signup-button2:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    background-color: gainsboro;
+    align-items: center;
+    justify-content: center;
+    height: 72px;
+}
